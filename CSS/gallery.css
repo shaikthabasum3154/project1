@@ -1,0 +1,105 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image: linear-gradient(purple,pink);
+    background-size: 100% 920px;
+}
+#a{
+    width:100%;
+    height:400px;
+    transition:all 0.2s;
+    transition-timing-function: ease-in-out;
+    background-size: 100% 500px;
+    background-position: 0px -50px;
+    box-shadow: 0px 5px 10px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 0px -90px;
+    background-repeat: no-repeat;
+}
+#heading{
+    font-size:60px;
+    letter-spacing: 10px;
+    color:white;
+    text-shadow: 5px 5px 5px black;
+    /* margin-top:200px;
+    margin-left:240px; */
+   
+}
+.bodyOfGallery
+{
+    background-image: linear-gradient(pink,purple);
+    height:500px;
+        width: 100%;
+        margin: 30px auto 50px;
+        display: grid;
+         grid-template-columns: repeat(4,50px);
+         grid-gap: 20px; 
+         grid-auto-rows: 50px;
+        column-gap: 10rem; 
+        /* column-count: 2; */
+        row-gap: 10rem;
+        /* width:100px; */
+        padding-left: 20px;
+        /* display:flex;
+        justify-content:space-between; */
+
+    }
+    .bodyOfGallery img
+    {
+        width: 100%;
+        height: 150px;
+        cursor: pointer;
+        box-shadow: 2px 2px 5px black;
+        border: 5px groove teal;
+        transition: transform 0.5s;
+        grid-template-columns: repeat(4,50px);
+        /* grid-gap: 20px; */
+        /* grid-auto-rows: 50px;*/
+        column-gap: 10rem;
+        width:200px; 
+        margin-left: 20px;
+        /* height:300px; */
+        /* margin-left:20px; */
+        /* display:flex;
+        justify-content: space-evenly; */
+       
+
+    }
+    .bodyOfGallery img:hover
+    {
+        transform: scale(1.2);
+    }
+    .fullScreenImg
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.8);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .fullScreenImg img
+    {
+        font-size: 40px;
+        color: white;
+        position: relative;
+        bottom: 120px;
+        left: 160px;
+        width: 460px;
+    }
+    #imgparagraph
+    {
+        color: white;
+        font-size: 24px;
+        text-align: justify;
+        position: relative;
+        right: 90px;
+        top: 30px;
+    }

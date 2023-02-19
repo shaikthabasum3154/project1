@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/gallery.css">
+    <script src="../javascript/gallery.js" defer></script>
+    <link rel="Stylesheet" href="../CSS/navbar.css">
+
+</head>
+<body onload="color()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery </h1>
+    </div>
+    <div id="bigscreen" class="fullScreenImg" style="display:none" onclick="imgV()">
+        <img  id="fullimg" src="../Asset/img/taj.jpg">
+        <h1 id="iamheading">Heading</h1>
+        <p id="imgparagraph">Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Obcaecati, explicabo? Delectus dolor accusantium, quae ipsum rem amet 
+            debitis eius omnis!</p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="#">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="sublist">
+                <li class="sli">India</li>
+                <li class="sli">dubai</li>
+                <li class="sli">srilanka</li>
+                <li class="sli">thailand</li>
+                <li class="sli">korea</li>
+            </ul>
+
+            </li>
+        <li class="li"><a href="#">Info</a></li>
+        <li class="li"><a href="#">Logout</a></li>
+    </ul>
+    </div>
+    <div class="bodyOfGallery">
+    <img src="../Asset/img/dubai.jpg" onclick="imgK(this.src,'This is dubai' , 'This is the city for riches its glitzy and innovative development and architecture and its shopping scenes')">
+    <img src="../Asset/img/kodaicanal.jpg" onclick="imgK(this.src,'This is kodaicanal',' Apart from being a famous hill station, Kodaikanal’s claim to fame also rests on the fact that it is home to the Kurinji flower which blooms once in 12 years in the December and envelops the entire valley in a beautiful sea of blue. The next blossom is due in 2018. It is not without reason that Kodaikanal is a huge draw card for the tourists. ')">
+    <img src="../Asset/img/kerala.jpg" onclick="imgK(this.src,'This is Kerala','Kerala is a visual treat for the tourists, the sunny beaches, famed backwaters, serene hill stations, roaring waterfalls, great greenery, large tea & spice plantations and large coconut groves offer a wonderful experience for the visitors.')">
+    <img src="../Asset/img/saudi.jpg" onclick="imgK(this.src,'This is saudi','Saudi Arabia is a very intriguing country for many foreigners. It is very well-known for its many oil reserves and very conservative society. The country is also home to the Kaaba, whereby many Muslims around the world perform their religious obligation. These are just a few things you’ll discover about Saudi arabia')">
+    <img src="../Asset/img/paris.jpg" onclick="imgK(this.src,'This is paris','Local it was constructed from 1887 to 1889 as the centerpiece of the 1889 World Although initially criticised by some of France leading artists and intellectuals for its design, it has since become a global cultural icon of France and one of the most recognisable structures in the world.[3] The Eiffel Tower is the most visited monument  UNESCO World Heritage Sit in 1991.[4]')">
+    <img src="../Asset/img/indiagate.jpg" onclick="imgK(this.src,'This is indiagate','India Gate, official name Delhi Memorial, originally called All-India War Memorial, monumental sandstone arch in New Delhi, dedicated to the troops of British India who died in wars fought between 1914 and 1919. India Gate, which is located at the eastern end of the Rajpath (formerly called the Kingsway), is about 138 feet (42 metres) in height.')">
+    <img src="../Asset/img/taj.jpg" onclick="imgK(this.src,'This is Tajmahal','tha taj mahal is an ivory-white marble mausoleum on the right bank of the river yamuna in the indian city of agra it was commisioned in 1631 bt the mugals ')">
+    </div>
+    
+</body>
+</html>
